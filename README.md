@@ -5,14 +5,14 @@ Read GAMBIT YAML files in Python. Why? GAMBIT YAML files contain lists as YAML k
 by Python YAML libraries.
 
 ## Install
-
-    pip install git+https://github.com/GambitBSM/gambit-yaml
+```bash
+pip install git+https://github.com/GambitBSM/gambit-yaml
+```
 
 ## Use
-
-    import gambit_yaml
-    with open("gambit_yaml.yaml") as f:
-        data = gambit_yaml.load(f)
-
-
+```python
+import gambit_yaml
+with open("gambit_yaml.yaml") as f:
+    data = gambit_yaml.load(f)
+```
 
