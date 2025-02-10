@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gambit_yaml"
+version = "0.1.0"
+description = "Read GAMBIT YAML files in Python"
+readme = "README.rst"
+authors = [
+  {name = "Andrew Fowlie", email = "andrew.fowlie@xjtlu.edu.cn"}
+]
+maintainers = [
+  {name = "Andrew Fowlie", email = "andrew.fowlie@xjtlu.edu.cn"}
+]
+dependencies = [
+  "pyyaml"
+]
+
+[project.urls]
+
+bugs = "https://github.com/andrewfowlie/gambit_yaml/issues"
+homepage = "https://github.com/andrewfowlie/gambit_yaml"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
